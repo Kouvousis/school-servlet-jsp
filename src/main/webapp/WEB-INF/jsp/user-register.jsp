@@ -26,9 +26,9 @@
             </div>
                 <div class="row m-bottom">
                     <select class="m-bottom" name="role">
-                        <option value="Teacher">Καθηγητής</option>
-                        <option value="Student">Μαθητής</option>
-                        <option value="Admin">Διαχειριστής</option>
+                        <option value="TEACHER">Καθηγητής</option>
+                        <option value="STUDENT">Μαθητής</option>
+                        <option value="ADMIN">Διαχειριστής</option>
                     </select>
                     <p class="validation-error">${requestScope.roleMessage}</p>
                 </div>
